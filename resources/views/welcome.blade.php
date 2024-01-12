@@ -17,7 +17,7 @@
 
 <body class="antialiased">
     <div class="container mx-auto">
-        <div class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-10">
             <form>
                 <div class="space-y-12">
                     <div class="border-b border-gray-900/10 pb-12">
