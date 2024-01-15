@@ -13,6 +13,15 @@ return new class extends Migration
     {
         Schema::create('personal_information', function (Blueprint $table) {
             $table->id();
+            //table tipe data nama kolom
+            $table->string('first_name', 100);
+            $table->string('last_name', 100);
+            $table->string('email', 100);
+            $table->string('country', 50);
+            $table->string('street_address', 150);
+            $table->string('city');
+            $table->string('state');
+            $table->string('zip_code');
             $table->timestamps();
         });
     }
